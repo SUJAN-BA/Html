@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>creating a form</title>
+</head>
+
+<body>
+    <h1>Register for sofware development role</h1>
+
+    <form action="post">
+
+           
+        <label for="username">enter the name</label>
+        <input type="text" id="username" name="username" placeholder="enter your name:">
+        <br> <!--or use<div>....</div>-->
+
+        <label for="possword">enter posword of the member</label>
+        <br>
+        <input type="password" name="password" placeholder="enter">
+         <br>
+
+         <div>
+         <input type="radio" id="male" name="gender"  value="male">
+         <label for="male">male</label>
+         <input type="radio" id="female" name="gender"  value="female">
+         <label for="female">female</label>
+         </div>          <!-- or use <br> -->
+         
+
+        <input type="checkbox" id="cllg" name="cllg" value="yes">
+        <label for="cllg">Are u from jss cllg</label>
+        <br>
+
+
+        <label for="comment">enter the permanent address</label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" cols="70"></textarea>
+         <br>
+  
+         <label for="branch">branch</label>
+         <select name="branch">
+            <option value="ISE">ISE</option>
+            <option value="CSE">CSE</option>
+            <option  value="ECE">ECE</option>
+            <option value="MECH">MECh</option>
+         </select>
+
+
+
+
+    </form>
+</body>
+</html>
